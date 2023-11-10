@@ -128,31 +128,31 @@ export const themeSettings = (mode) => {
 			...(mode === 'dark'
 				? {
 						primary: {
-							main: colorToken.primary[500],
+							main: colors.primary[500],
 						},
 						secondary: {
-							main: colorToken.greenAccent[500],
+							main: colors.greenAccent[500],
 						},
 						neutral: {
-							dark: colorToken.gray[700],
-							main: colorToken.gray[500],
-							light: colorToken.gray[100],
+							dark: colors.gray[700],
+							main: colors.gray[500],
+							light: colors.gray[100],
 						},
 						background: {
-							default: colorToken.primary[500],
+							default: colors.primary[500],
 						},
 				  }
 				: {
 						primary: {
-							main: colorToken.primary[100],
+							main: colors.primary[100],
 						},
 						secondary: {
-							main: colorToken.greenAccent[500],
+							main: colors.greenAccent[500],
 						},
 						neutral: {
-							dark: colorToken.gray[700],
-							main: colorToken.gray[500],
-							light: colorToken.gray[100],
+							dark: colors.gray[700],
+							main: colors.gray[500],
+							light: colors.gray[100],
 						},
 						background: {
 							default: '#fcfcfc',
@@ -182,7 +182,7 @@ export const themeSettings = (mode) => {
 				fontFamily: ['Source Sans 3', 'sans-serif'].join(','),
 				fontSize: 16,
 			},
-			h5: {
+			h6: {
 				fontFamily: ['Source Sans 3', 'sans-serif'].join(','),
 				fontSize: 14,
 			},
